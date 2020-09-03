@@ -1,0 +1,1171 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EDB55CB3CDADFD3EE3F2F06 /* Pods_Number_BaseballTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F14BF7E51CF26213EF07984 /* Pods_Number_BaseballTests.framework */; };
+		3287144D2461B7D30028FE33 /* play_ball_1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 328714442461B7D30028FE33 /* play_ball_1x.png */; };
+		3287144E2461B7D30028FE33 /* baseball-style-number-2-1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 328714452461B7D30028FE33 /* baseball-style-number-2-1x.png */; };
+		3287144F2461B7D30028FE33 /* baseball-style-number-1-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 328714462461B7D30028FE33 /* baseball-style-number-1-2x.png */; };
+		328714502461B7D30028FE33 /* baseball-style-number-1-3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 328714472461B7D30028FE33 /* baseball-style-number-1-3x.png */; };
+		328714512461B7D30028FE33 /* baseball-style-number-1-1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 328714482461B7D30028FE33 /* baseball-style-number-1-1x.png */; };
+		328714522461B7D30028FE33 /* play_ball_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 328714492461B7D30028FE33 /* play_ball_3x.png */; };
+		328714532461B7D30028FE33 /* baseball-style-number-2-3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3287144A2461B7D30028FE33 /* baseball-style-number-2-3x.png */; };
+		328714542461B7D30028FE33 /* baseball-style-number-2-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3287144B2461B7D30028FE33 /* baseball-style-number-2-2x.png */; };
+		328714552461B7D30028FE33 /* play_ball_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3287144C2461B7D30028FE33 /* play_ball_2x.png */; };
+		328714572461BE6E0028FE33 /* SetUpGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328714562461BE6E0028FE33 /* SetUpGameViewController.swift */; };
+		328714592461C5170028FE33 /* guessByRoundTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328714582461C5170028FE33 /* guessByRoundTableViewController.swift */; };
+		3287145B24625A430028FE33 /* loadResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3287145A24625A430028FE33 /* loadResultsTableViewController.swift */; };
+		328714712462B6420028FE33 /* baseball-style-number-6-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3287145C2462B63F0028FE33 /* baseball-style-number-6-2x.png */; };
+		328714722462B6420028FE33 /* baseball-style-number-6-3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3287145D2462B6400028FE33 /* baseball-style-number-6-3x.png */; };
+		328714732462B6420028FE33 /* baseball-style-number-3-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3287145E2462B6400028FE33 /* baseball-style-number-3-2x.png */; };
+		328714742462B6420028FE33 /* baseball-style-number-4-3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3287145F2462B6400028FE33 /* baseball-style-number-4-3x.png */; };
+		328714752462B6420028FE33 /* baseball-style-number-3-1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 328714602462B6400028FE33 /* baseball-style-number-3-1x.png */; };
+		328714762462B6420028FE33 /* baseball-style-number-6-1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 328714612462B6400028FE33 /* baseball-style-number-6-1x.png */; };
+		328714772462B6420028FE33 /* baseball-style-number-3-3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 328714622462B6400028FE33 /* baseball-style-number-3-3x.png */; };
+		328714782462B6420028FE33 /* baseball-style-number-7-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 328714632462B6400028FE33 /* baseball-style-number-7-2x.png */; };
+		328714792462B6420028FE33 /* baseball-style-number-5-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 328714642462B6400028FE33 /* baseball-style-number-5-2x.png */; };
+		3287147A2462B6420028FE33 /* baseball-style-number-5-1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 328714652462B6410028FE33 /* baseball-style-number-5-1x.png */; };
+		3287147B2462B6420028FE33 /* baseball-style-number-9-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 328714662462B6410028FE33 /* baseball-style-number-9-2x.png */; };
+		3287147C2462B6420028FE33 /* baseball-style-number-5-3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 328714672462B6410028FE33 /* baseball-style-number-5-3x.png */; };
+		3287147D2462B6420028FE33 /* baseball-style-number-9-3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 328714682462B6410028FE33 /* baseball-style-number-9-3x.png */; };
+		3287147E2462B6420028FE33 /* baseball-style-number-4-1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 328714692462B6410028FE33 /* baseball-style-number-4-1x.png */; };
+		3287147F2462B6420028FE33 /* baseball-style-number-8-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3287146A2462B6410028FE33 /* baseball-style-number-8-2x.png */; };
+		328714802462B6420028FE33 /* baseball-style-number-7-1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3287146B2462B6410028FE33 /* baseball-style-number-7-1x.png */; };
+		328714812462B6420028FE33 /* baseball-style-number-8-3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3287146C2462B6410028FE33 /* baseball-style-number-8-3x.png */; };
+		328714822462B6420028FE33 /* baseball-style-number-9-1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3287146D2462B6420028FE33 /* baseball-style-number-9-1x.png */; };
+		328714832462B6420028FE33 /* baseball-style-number-4-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3287146E2462B6420028FE33 /* baseball-style-number-4-2x.png */; };
+		328714842462B6420028FE33 /* baseball-style-number-8-1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3287146F2462B6420028FE33 /* baseball-style-number-8-1x.png */; };
+		328714852462B6420028FE33 /* baseball-style-number-7-3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 328714702462B6420028FE33 /* baseball-style-number-7-3x.png */; };
+		328714872462D73C0028FE33 /* playGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328714862462D73C0028FE33 /* playGameViewController.swift */; };
+		328714A52462F8440028FE33 /* baseball_color_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 328714892462F8440028FE33 /* baseball_color_3x.png */; };
+		328714BB2462F8450028FE33 /* baseball_color_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 328714A02462F8440028FE33 /* baseball_color_2x.png */; };
+		328714BC2462F8450028FE33 /* victory-1x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 328714A12462F8440028FE33 /* victory-1x.jpg */; };
+		328714BD2462F8450028FE33 /* victory-3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 328714A22462F8440028FE33 /* victory-3x.jpg */; };
+		328714BE2462F8450028FE33 /* victory-2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 328714A32462F8440028FE33 /* victory-2x.jpg */; };
+		328714BF2462F8450028FE33 /* baseball_color_1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 328714A42462F8440028FE33 /* baseball_color_1x.png */; };
+		328714C1246348D00028FE33 /* userGuessResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328714C0246348D00028FE33 /* userGuessResultViewController.swift */; };
+		328714C524634B140028FE33 /* strike_1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 328714C224634B130028FE33 /* strike_1x.png */; };
+		328714C624634B140028FE33 /* strike_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 328714C324634B140028FE33 /* strike_2x.png */; };
+		328714C724634B140028FE33 /* strike_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 328714C424634B140028FE33 /* strike_3x.png */; };
+		328714C9246388B40028FE33 /* CTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328714C8246388B40028FE33 /* CTView.swift */; };
+		328714CB24638CD20028FE33 /* ruleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328714CA24638CD20028FE33 /* ruleViewController.swift */; };
+		328714CD246396EF0028FE33 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 328714CC246396EE0028FE33 /* GoogleSignIn.bundle */; };
+		328714D02463974D0028FE33 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 328714CF2463974C0028FE33 /* LocalAuthentication.framework */; };
+		328714D2246397580028FE33 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 328714D1246397580028FE33 /* SafariServices.framework */; };
+		328714D4246397660028FE33 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 328714D3246397660028FE33 /* AuthenticationServices.framework */; };
+		328714D6246397750028FE33 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 328714D5246397750028FE33 /* SystemConfiguration.framework */; };
+		32AF13CD245024EF00C2A39A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AF13CC245024EF00C2A39A /* AppDelegate.swift */; };
+		32AF13CF245024EF00C2A39A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AF13CE245024EF00C2A39A /* SceneDelegate.swift */; };
+		32AF13D1245024EF00C2A39A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AF13D0245024EF00C2A39A /* ViewController.swift */; };
+		32AF13D4245024EF00C2A39A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32AF13D2245024EF00C2A39A /* Main.storyboard */; };
+		32AF13D6245024FA00C2A39A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32AF13D5245024FA00C2A39A /* Assets.xcassets */; };
+		32AF13D9245024FA00C2A39A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32AF13D7245024FA00C2A39A /* LaunchScreen.storyboard */; };
+		32AF13E4245024FA00C2A39A /* Number_BaseballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AF13E3245024FA00C2A39A /* Number_BaseballTests.swift */; };
+		32AF13EF245024FA00C2A39A /* Number_BaseballUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AF13EE245024FA00C2A39A /* Number_BaseballUITests.swift */; };
+		32AF14012456CD3E00C2A39A /* numberBaseballModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AF14002456CD3E00C2A39A /* numberBaseballModel.swift */; };
+		32AF14032456D2FB00C2A39A /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AF14022456D2FB00C2A39A /* Numbers.swift */; };
+		32AF1407245DA14B00C2A39A /* SBResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AF1406245DA14B00C2A39A /* SBResult.swift */; };
+		32AF141824617E8300C2A39A /* baseball_silhouette_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32AF140D24617E8300C2A39A /* baseball_silhouette_2x.png */; };
+		32AF141924617E8300C2A39A /* strike_image_out_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32AF140E24617E8300C2A39A /* strike_image_out_3x.png */; };
+		32AF141A24617E8300C2A39A /* baseball-style-number-0-1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32AF140F24617E8300C2A39A /* baseball-style-number-0-1x.png */; };
+		32AF141B24617E8300C2A39A /* strike_image_out_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32AF141024617E8300C2A39A /* strike_image_out_2x.png */; };
+		32AF141C24617E8300C2A39A /* baseball_silhouette_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32AF141124617E8300C2A39A /* baseball_silhouette_3x.png */; };
+		32AF141D24617E8300C2A39A /* numberBaseball_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32AF141224617E8300C2A39A /* numberBaseball_3x.png */; };
+		32AF141E24617E8300C2A39A /* numberBaseball_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32AF141324617E8300C2A39A /* numberBaseball_2x.png */; };
+		32AF141F24617E8300C2A39A /* baseball-style-number-0-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32AF141424617E8300C2A39A /* baseball-style-number-0-2x.png */; };
+		32AF142024617E8300C2A39A /* strike_image_out_1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32AF141524617E8300C2A39A /* strike_image_out_1x.png */; };
+		32AF142124617E8300C2A39A /* baseball-style-number-0-3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32AF141624617E8300C2A39A /* baseball-style-number-0-3x.png */; };
+		32AF142224617E8300C2A39A /* baseball_silhouette_1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32AF141724617E8300C2A39A /* baseball_silhouette_1x.png */; };
+		32AF142624618E1B00C2A39A /* firstPageSkScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 32AF142524618E1B00C2A39A /* firstPageSkScene.sks */; };
+		32AF14282461911A00C2A39A /* firstPageSkScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AF14272461911A00C2A39A /* firstPageSkScene.swift */; };
+		32AF143B246198D500C2A39A /* pitcher_image_og_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32AF142A246198D400C2A39A /* pitcher_image_og_2x.png */; };
+		32AF143E246198D500C2A39A /* vector_baseball_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32AF142D246198D400C2A39A /* vector_baseball_3x.png */; };
+		32AF1440246198D500C2A39A /* vector_baseball_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32AF142F246198D400C2A39A /* vector_baseball_2x.png */; };
+		32AF1443246198D500C2A39A /* pitcher_image_og_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32AF1432246198D400C2A39A /* pitcher_image_og_3x.png */; };
+		32AF1447246198D500C2A39A /* vector_baseball_1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32AF1436246198D400C2A39A /* vector_baseball_1x.png */; };
+		32AF144A246198D500C2A39A /* pitcher_image_og_1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32AF1439246198D400C2A39A /* pitcher_image_og_1x.png */; };
+		535A8B13B5D71DD48202A7BA /* Pods_Number_Baseball_Number_BaseballUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3987C9FED7B65CD74BB31639 /* Pods_Number_Baseball_Number_BaseballUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32AF13E0245024FA00C2A39A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32AF13C1245024EE00C2A39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32AF13C8245024EF00C2A39A;
+			remoteInfo = "Number Baseball";
+		};
+		32AF13EB245024FA00C2A39A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32AF13C1245024EE00C2A39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32AF13C8245024EF00C2A39A;
+			remoteInfo = "Number Baseball";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		328714442461B7D30028FE33 /* play_ball_1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_ball_1x.png; sourceTree = "<group>"; };
+		328714452461B7D30028FE33 /* baseball-style-number-2-1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-style-number-2-1x.png"; sourceTree = "<group>"; };
+		328714462461B7D30028FE33 /* baseball-style-number-1-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-style-number-1-2x.png"; sourceTree = "<group>"; };
+		328714472461B7D30028FE33 /* baseball-style-number-1-3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-style-number-1-3x.png"; sourceTree = "<group>"; };
+		328714482461B7D30028FE33 /* baseball-style-number-1-1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-style-number-1-1x.png"; sourceTree = "<group>"; };
+		328714492461B7D30028FE33 /* play_ball_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_ball_3x.png; sourceTree = "<group>"; };
+		3287144A2461B7D30028FE33 /* baseball-style-number-2-3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-style-number-2-3x.png"; sourceTree = "<group>"; };
+		3287144B2461B7D30028FE33 /* baseball-style-number-2-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-style-number-2-2x.png"; sourceTree = "<group>"; };
+		3287144C2461B7D30028FE33 /* play_ball_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_ball_2x.png; sourceTree = "<group>"; };
+		328714562461BE6E0028FE33 /* SetUpGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpGameViewController.swift; sourceTree = "<group>"; };
+		328714582461C5170028FE33 /* guessByRoundTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guessByRoundTableViewController.swift; sourceTree = "<group>"; };
+		3287145A24625A430028FE33 /* loadResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadResultsTableViewController.swift; sourceTree = "<group>"; };
+		3287145C2462B63F0028FE33 /* baseball-style-number-6-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-style-number-6-2x.png"; sourceTree = "<group>"; };
+		3287145D2462B6400028FE33 /* baseball-style-number-6-3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-style-number-6-3x.png"; sourceTree = "<group>"; };
+		3287145E2462B6400028FE33 /* baseball-style-number-3-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-style-number-3-2x.png"; sourceTree = "<group>"; };
+		3287145F2462B6400028FE33 /* baseball-style-number-4-3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-style-number-4-3x.png"; sourceTree = "<group>"; };
+		328714602462B6400028FE33 /* baseball-style-number-3-1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-style-number-3-1x.png"; sourceTree = "<group>"; };
+		328714612462B6400028FE33 /* baseball-style-number-6-1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-style-number-6-1x.png"; sourceTree = "<group>"; };
+		328714622462B6400028FE33 /* baseball-style-number-3-3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-style-number-3-3x.png"; sourceTree = "<group>"; };
+		328714632462B6400028FE33 /* baseball-style-number-7-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-style-number-7-2x.png"; sourceTree = "<group>"; };
+		328714642462B6400028FE33 /* baseball-style-number-5-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-style-number-5-2x.png"; sourceTree = "<group>"; };
+		328714652462B6410028FE33 /* baseball-style-number-5-1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-style-number-5-1x.png"; sourceTree = "<group>"; };
+		328714662462B6410028FE33 /* baseball-style-number-9-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-style-number-9-2x.png"; sourceTree = "<group>"; };
+		328714672462B6410028FE33 /* baseball-style-number-5-3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-style-number-5-3x.png"; sourceTree = "<group>"; };
+		328714682462B6410028FE33 /* baseball-style-number-9-3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-style-number-9-3x.png"; sourceTree = "<group>"; };
+		328714692462B6410028FE33 /* baseball-style-number-4-1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-style-number-4-1x.png"; sourceTree = "<group>"; };
+		3287146A2462B6410028FE33 /* baseball-style-number-8-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-style-number-8-2x.png"; sourceTree = "<group>"; };
+		3287146B2462B6410028FE33 /* baseball-style-number-7-1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-style-number-7-1x.png"; sourceTree = "<group>"; };
+		3287146C2462B6410028FE33 /* baseball-style-number-8-3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-style-number-8-3x.png"; sourceTree = "<group>"; };
+		3287146D2462B6420028FE33 /* baseball-style-number-9-1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-style-number-9-1x.png"; sourceTree = "<group>"; };
+		3287146E2462B6420028FE33 /* baseball-style-number-4-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-style-number-4-2x.png"; sourceTree = "<group>"; };
+		3287146F2462B6420028FE33 /* baseball-style-number-8-1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-style-number-8-1x.png"; sourceTree = "<group>"; };
+		328714702462B6420028FE33 /* baseball-style-number-7-3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-style-number-7-3x.png"; sourceTree = "<group>"; };
+		328714862462D73C0028FE33 /* playGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playGameViewController.swift; sourceTree = "<group>"; };
+		328714892462F8440028FE33 /* baseball_color_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseball_color_3x.png; sourceTree = "<group>"; };
+		328714A02462F8440028FE33 /* baseball_color_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseball_color_2x.png; sourceTree = "<group>"; };
+		328714A12462F8440028FE33 /* victory-1x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "victory-1x.jpg"; sourceTree = "<group>"; };
+		328714A22462F8440028FE33 /* victory-3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "victory-3x.jpg"; sourceTree = "<group>"; };
+		328714A32462F8440028FE33 /* victory-2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "victory-2x.jpg"; sourceTree = "<group>"; };
+		328714A42462F8440028FE33 /* baseball_color_1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseball_color_1x.png; sourceTree = "<group>"; };
+		328714C0246348D00028FE33 /* userGuessResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userGuessResultViewController.swift; sourceTree = "<group>"; };
+		328714C224634B130028FE33 /* strike_1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strike_1x.png; sourceTree = "<group>"; };
+		328714C324634B140028FE33 /* strike_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strike_2x.png; sourceTree = "<group>"; };
+		328714C424634B140028FE33 /* strike_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strike_3x.png; sourceTree = "<group>"; };
+		328714C8246388B40028FE33 /* CTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTView.swift; sourceTree = "<group>"; };
+		328714CA24638CD20028FE33 /* ruleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ruleViewController.swift; sourceTree = "<group>"; };
+		328714CC246396EE0028FE33 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		328714CF2463974C0028FE33 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		328714D1246397580028FE33 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		328714D3246397660028FE33 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		328714D5246397750028FE33 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		32AF13C9245024EF00C2A39A /* Number Baseball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Number Baseball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32AF13CC245024EF00C2A39A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32AF13CE245024EF00C2A39A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		32AF13D0245024EF00C2A39A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32AF13D3245024EF00C2A39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32AF13D5245024FA00C2A39A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32AF13D8245024FA00C2A39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32AF13DA245024FA00C2A39A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32AF13DF245024FA00C2A39A /* Number BaseballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Number BaseballTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32AF13E3245024FA00C2A39A /* Number_BaseballTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number_BaseballTests.swift; sourceTree = "<group>"; };
+		32AF13E5245024FA00C2A39A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32AF13EA245024FA00C2A39A /* Number BaseballUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Number BaseballUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32AF13EE245024FA00C2A39A /* Number_BaseballUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number_BaseballUITests.swift; sourceTree = "<group>"; };
+		32AF13F0245024FB00C2A39A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32AF14002456CD3E00C2A39A /* numberBaseballModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numberBaseballModel.swift; sourceTree = "<group>"; };
+		32AF14022456D2FB00C2A39A /* Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
+		32AF1406245DA14B00C2A39A /* SBResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBResult.swift; sourceTree = "<group>"; };
+		32AF140D24617E8300C2A39A /* baseball_silhouette_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseball_silhouette_2x.png; sourceTree = "<group>"; };
+		32AF140E24617E8300C2A39A /* strike_image_out_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strike_image_out_3x.png; sourceTree = "<group>"; };
+		32AF140F24617E8300C2A39A /* baseball-style-number-0-1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-style-number-0-1x.png"; sourceTree = "<group>"; };
+		32AF141024617E8300C2A39A /* strike_image_out_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strike_image_out_2x.png; sourceTree = "<group>"; };
+		32AF141124617E8300C2A39A /* baseball_silhouette_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseball_silhouette_3x.png; sourceTree = "<group>"; };
+		32AF141224617E8300C2A39A /* numberBaseball_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numberBaseball_3x.png; sourceTree = "<group>"; };
+		32AF141324617E8300C2A39A /* numberBaseball_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numberBaseball_2x.png; sourceTree = "<group>"; };
+		32AF141424617E8300C2A39A /* baseball-style-number-0-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-style-number-0-2x.png"; sourceTree = "<group>"; };
+		32AF141524617E8300C2A39A /* strike_image_out_1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strike_image_out_1x.png; sourceTree = "<group>"; };
+		32AF141624617E8300C2A39A /* baseball-style-number-0-3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-style-number-0-3x.png"; sourceTree = "<group>"; };
+		32AF141724617E8300C2A39A /* baseball_silhouette_1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseball_silhouette_1x.png; sourceTree = "<group>"; };
+		32AF142524618E1B00C2A39A /* firstPageSkScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = firstPageSkScene.sks; sourceTree = "<group>"; };
+		32AF14272461911A00C2A39A /* firstPageSkScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstPageSkScene.swift; sourceTree = "<group>"; };
+		32AF142A246198D400C2A39A /* pitcher_image_og_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pitcher_image_og_2x.png; sourceTree = "<group>"; };
+		32AF142D246198D400C2A39A /* vector_baseball_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vector_baseball_3x.png; sourceTree = "<group>"; };
+		32AF142F246198D400C2A39A /* vector_baseball_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vector_baseball_2x.png; sourceTree = "<group>"; };
+		32AF1432246198D400C2A39A /* pitcher_image_og_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pitcher_image_og_3x.png; sourceTree = "<group>"; };
+		32AF1436246198D400C2A39A /* vector_baseball_1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vector_baseball_1x.png; sourceTree = "<group>"; };
+		32AF1439246198D400C2A39A /* pitcher_image_og_1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pitcher_image_og_1x.png; sourceTree = "<group>"; };
+		3987C9FED7B65CD74BB31639 /* Pods_Number_Baseball_Number_BaseballUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Number_Baseball_Number_BaseballUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E3AF109922D77196824B40 /* Pods-Number BaseballTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Number BaseballTests.release.xcconfig"; path = "Target Support Files/Pods-Number BaseballTests/Pods-Number BaseballTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F14BF7E51CF26213EF07984 /* Pods_Number_BaseballTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Number_BaseballTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73EA19739B1A2F16BFAE7B09 /* Pods-Number Baseball.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Number Baseball.debug.xcconfig"; path = "Target Support Files/Pods-Number Baseball/Pods-Number Baseball.debug.xcconfig"; sourceTree = "<group>"; };
+		94471E9219BBEBE9ED10ACA5 /* Pods-Number Baseball-Number BaseballUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Number Baseball-Number BaseballUITests.debug.xcconfig"; path = "Target Support Files/Pods-Number Baseball-Number BaseballUITests/Pods-Number Baseball-Number BaseballUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A8AA214EF7DBF8AFEC36F65 /* Pods-Number BaseballTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Number BaseballTests.debug.xcconfig"; path = "Target Support Files/Pods-Number BaseballTests/Pods-Number BaseballTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7BB5BD968A1B004574C9612 /* Pods-Number Baseball-Number BaseballUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Number Baseball-Number BaseballUITests.release.xcconfig"; path = "Target Support Files/Pods-Number Baseball-Number BaseballUITests/Pods-Number Baseball-Number BaseballUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CFD6ED6E8DB7DE6771CD7FC7 /* Pods-Number Baseball.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Number Baseball.release.xcconfig"; path = "Target Support Files/Pods-Number Baseball/Pods-Number Baseball.release.xcconfig"; sourceTree = "<group>"; };
+		D610C5C396ECA9235C10B837 /* Pods_Number_Baseball.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Number_Baseball.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32AF13C6245024EF00C2A39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328714D4246397660028FE33 /* AuthenticationServices.framework in Frameworks */,
+				328714D6246397750028FE33 /* SystemConfiguration.framework in Frameworks */,
+				328714D2246397580028FE33 /* SafariServices.framework in Frameworks */,
+				328714D02463974D0028FE33 /* LocalAuthentication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32AF13DC245024FA00C2A39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EDB55CB3CDADFD3EE3F2F06 /* Pods_Number_BaseballTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32AF13E7245024FA00C2A39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				535A8B13B5D71DD48202A7BA /* Pods_Number_Baseball_Number_BaseballUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		328714CE2463974B0028FE33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				328714D5246397750028FE33 /* SystemConfiguration.framework */,
+				328714D3246397660028FE33 /* AuthenticationServices.framework */,
+				328714D1246397580028FE33 /* SafariServices.framework */,
+				328714CF2463974C0028FE33 /* LocalAuthentication.framework */,
+				D610C5C396ECA9235C10B837 /* Pods_Number_Baseball.framework */,
+				3987C9FED7B65CD74BB31639 /* Pods_Number_Baseball_Number_BaseballUITests.framework */,
+				4F14BF7E51CF26213EF07984 /* Pods_Number_BaseballTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32AF13C0245024EE00C2A39A = {
+			isa = PBXGroup;
+			children = (
+				328714CC246396EE0028FE33 /* GoogleSignIn.bundle */,
+				32AF13CB245024EF00C2A39A /* Number Baseball */,
+				32AF13E2245024FA00C2A39A /* Number BaseballTests */,
+				32AF13ED245024FA00C2A39A /* Number BaseballUITests */,
+				32AF13CA245024EF00C2A39A /* Products */,
+				328714CE2463974B0028FE33 /* Frameworks */,
+				8E19846522BACEE74AA2FB81 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		32AF13CA245024EF00C2A39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32AF13C9245024EF00C2A39A /* Number Baseball.app */,
+				32AF13DF245024FA00C2A39A /* Number BaseballTests.xctest */,
+				32AF13EA245024FA00C2A39A /* Number BaseballUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32AF13CB245024EF00C2A39A /* Number Baseball */ = {
+			isa = PBXGroup;
+			children = (
+				32AF13FD2450252400C2A39A /* model */,
+				32AF13FC2450251A00C2A39A /* view */,
+				32AF13FE2450252B00C2A39A /* controller */,
+				32AF13FF245025A300C2A39A /* supporting files */,
+				32AF13DA245024FA00C2A39A /* Info.plist */,
+			);
+			path = "Number Baseball";
+			sourceTree = "<group>";
+		};
+		32AF13E2245024FA00C2A39A /* Number BaseballTests */ = {
+			isa = PBXGroup;
+			children = (
+				32AF13E3245024FA00C2A39A /* Number_BaseballTests.swift */,
+				32AF13E5245024FA00C2A39A /* Info.plist */,
+			);
+			path = "Number BaseballTests";
+			sourceTree = "<group>";
+		};
+		32AF13ED245024FA00C2A39A /* Number BaseballUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32AF13EE245024FA00C2A39A /* Number_BaseballUITests.swift */,
+				32AF13F0245024FB00C2A39A /* Info.plist */,
+			);
+			path = "Number BaseballUITests";
+			sourceTree = "<group>";
+		};
+		32AF13FC2450251A00C2A39A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				32AF140C24617E8300C2A39A /* image */,
+				32AF13D2245024EF00C2A39A /* Main.storyboard */,
+				32AF13D7245024FA00C2A39A /* LaunchScreen.storyboard */,
+				32AF13D5245024FA00C2A39A /* Assets.xcassets */,
+				328714C8246388B40028FE33 /* CTView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		32AF13FD2450252400C2A39A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				32AF14002456CD3E00C2A39A /* numberBaseballModel.swift */,
+				32AF14022456D2FB00C2A39A /* Numbers.swift */,
+				32AF1406245DA14B00C2A39A /* SBResult.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		32AF13FE2450252B00C2A39A /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				32AF13D0245024EF00C2A39A /* ViewController.swift */,
+				32AF142524618E1B00C2A39A /* firstPageSkScene.sks */,
+				32AF14272461911A00C2A39A /* firstPageSkScene.swift */,
+				328714562461BE6E0028FE33 /* SetUpGameViewController.swift */,
+				328714582461C5170028FE33 /* guessByRoundTableViewController.swift */,
+				3287145A24625A430028FE33 /* loadResultsTableViewController.swift */,
+				328714862462D73C0028FE33 /* playGameViewController.swift */,
+				328714C0246348D00028FE33 /* userGuessResultViewController.swift */,
+				328714CA24638CD20028FE33 /* ruleViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		32AF13FF245025A300C2A39A /* supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				32AF13CE245024EF00C2A39A /* SceneDelegate.swift */,
+				32AF13CC245024EF00C2A39A /* AppDelegate.swift */,
+			);
+			path = "supporting files";
+			sourceTree = "<group>";
+		};
+		32AF140C24617E8300C2A39A /* image */ = {
+			isa = PBXGroup;
+			children = (
+				328714C224634B130028FE33 /* strike_1x.png */,
+				328714C324634B140028FE33 /* strike_2x.png */,
+				328714C424634B140028FE33 /* strike_3x.png */,
+				328714602462B6400028FE33 /* baseball-style-number-3-1x.png */,
+				328714892462F8440028FE33 /* baseball_color_3x.png */,
+				328714A02462F8440028FE33 /* baseball_color_2x.png */,
+				328714A12462F8440028FE33 /* victory-1x.jpg */,
+				328714A22462F8440028FE33 /* victory-3x.jpg */,
+				328714A32462F8440028FE33 /* victory-2x.jpg */,
+				328714A42462F8440028FE33 /* baseball_color_1x.png */,
+				3287145E2462B6400028FE33 /* baseball-style-number-3-2x.png */,
+				328714622462B6400028FE33 /* baseball-style-number-3-3x.png */,
+				328714692462B6410028FE33 /* baseball-style-number-4-1x.png */,
+				3287146E2462B6420028FE33 /* baseball-style-number-4-2x.png */,
+				3287145F2462B6400028FE33 /* baseball-style-number-4-3x.png */,
+				328714652462B6410028FE33 /* baseball-style-number-5-1x.png */,
+				328714642462B6400028FE33 /* baseball-style-number-5-2x.png */,
+				328714672462B6410028FE33 /* baseball-style-number-5-3x.png */,
+				328714612462B6400028FE33 /* baseball-style-number-6-1x.png */,
+				3287145C2462B63F0028FE33 /* baseball-style-number-6-2x.png */,
+				3287145D2462B6400028FE33 /* baseball-style-number-6-3x.png */,
+				3287146B2462B6410028FE33 /* baseball-style-number-7-1x.png */,
+				328714632462B6400028FE33 /* baseball-style-number-7-2x.png */,
+				328714702462B6420028FE33 /* baseball-style-number-7-3x.png */,
+				3287146F2462B6420028FE33 /* baseball-style-number-8-1x.png */,
+				3287146A2462B6410028FE33 /* baseball-style-number-8-2x.png */,
+				3287146C2462B6410028FE33 /* baseball-style-number-8-3x.png */,
+				3287146D2462B6420028FE33 /* baseball-style-number-9-1x.png */,
+				328714662462B6410028FE33 /* baseball-style-number-9-2x.png */,
+				328714682462B6410028FE33 /* baseball-style-number-9-3x.png */,
+				32AF140D24617E8300C2A39A /* baseball_silhouette_2x.png */,
+				328714442461B7D30028FE33 /* play_ball_1x.png */,
+				328714452461B7D30028FE33 /* baseball-style-number-2-1x.png */,
+				328714462461B7D30028FE33 /* baseball-style-number-1-2x.png */,
+				328714472461B7D30028FE33 /* baseball-style-number-1-3x.png */,
+				328714482461B7D30028FE33 /* baseball-style-number-1-1x.png */,
+				328714492461B7D30028FE33 /* play_ball_3x.png */,
+				3287144A2461B7D30028FE33 /* baseball-style-number-2-3x.png */,
+				3287144B2461B7D30028FE33 /* baseball-style-number-2-2x.png */,
+				3287144C2461B7D30028FE33 /* play_ball_2x.png */,
+				32AF142D246198D400C2A39A /* vector_baseball_3x.png */,
+				32AF1436246198D400C2A39A /* vector_baseball_1x.png */,
+				32AF142F246198D400C2A39A /* vector_baseball_2x.png */,
+				32AF142A246198D400C2A39A /* pitcher_image_og_2x.png */,
+				32AF1439246198D400C2A39A /* pitcher_image_og_1x.png */,
+				32AF140E24617E8300C2A39A /* strike_image_out_3x.png */,
+				32AF1432246198D400C2A39A /* pitcher_image_og_3x.png */,
+				32AF140F24617E8300C2A39A /* baseball-style-number-0-1x.png */,
+				32AF141024617E8300C2A39A /* strike_image_out_2x.png */,
+				32AF141124617E8300C2A39A /* baseball_silhouette_3x.png */,
+				32AF141224617E8300C2A39A /* numberBaseball_3x.png */,
+				32AF141324617E8300C2A39A /* numberBaseball_2x.png */,
+				32AF141424617E8300C2A39A /* baseball-style-number-0-2x.png */,
+				32AF141524617E8300C2A39A /* strike_image_out_1x.png */,
+				32AF141624617E8300C2A39A /* baseball-style-number-0-3x.png */,
+				32AF141724617E8300C2A39A /* baseball_silhouette_1x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		8E19846522BACEE74AA2FB81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73EA19739B1A2F16BFAE7B09 /* Pods-Number Baseball.debug.xcconfig */,
+				CFD6ED6E8DB7DE6771CD7FC7 /* Pods-Number Baseball.release.xcconfig */,
+				94471E9219BBEBE9ED10ACA5 /* Pods-Number Baseball-Number BaseballUITests.debug.xcconfig */,
+				B7BB5BD968A1B004574C9612 /* Pods-Number Baseball-Number BaseballUITests.release.xcconfig */,
+				9A8AA214EF7DBF8AFEC36F65 /* Pods-Number BaseballTests.debug.xcconfig */,
+				41E3AF109922D77196824B40 /* Pods-Number BaseballTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32AF13C8245024EF00C2A39A /* Number Baseball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32AF13F3245024FB00C2A39A /* Build configuration list for PBXNativeTarget "Number Baseball" */;
+			buildPhases = (
+				8237A5096D5CCF19608086B6 /* [CP] Check Pods Manifest.lock */,
+				32AF13C5245024EF00C2A39A /* Sources */,
+				32AF13C6245024EF00C2A39A /* Frameworks */,
+				32AF13C7245024EF00C2A39A /* Resources */,
+				DE13E0E48229797EE42F52C3 /* [CP] Embed Pods Frameworks */,
+				EF8D623BEE8772E2D8566775 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Number Baseball";
+			productName = "Number Baseball";
+			productReference = 32AF13C9245024EF00C2A39A /* Number Baseball.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32AF13DE245024FA00C2A39A /* Number BaseballTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32AF13F6245024FB00C2A39A /* Build configuration list for PBXNativeTarget "Number BaseballTests" */;
+			buildPhases = (
+				A44F0B42393E88BF9AA016E2 /* [CP] Check Pods Manifest.lock */,
+				32AF13DB245024FA00C2A39A /* Sources */,
+				32AF13DC245024FA00C2A39A /* Frameworks */,
+				32AF13DD245024FA00C2A39A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32AF13E1245024FA00C2A39A /* PBXTargetDependency */,
+			);
+			name = "Number BaseballTests";
+			productName = "Number BaseballTests";
+			productReference = 32AF13DF245024FA00C2A39A /* Number BaseballTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32AF13E9245024FA00C2A39A /* Number BaseballUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32AF13F9245024FB00C2A39A /* Build configuration list for PBXNativeTarget "Number BaseballUITests" */;
+			buildPhases = (
+				865FD1EFE1E38FAE8BAEBE98 /* [CP] Check Pods Manifest.lock */,
+				32AF13E6245024FA00C2A39A /* Sources */,
+				32AF13E7245024FA00C2A39A /* Frameworks */,
+				32AF13E8245024FA00C2A39A /* Resources */,
+				AC066993D6BE2CFB2F3A4B4D /* [CP] Embed Pods Frameworks */,
+				242FA754A66817D2EE3763F0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32AF13EC245024FA00C2A39A /* PBXTargetDependency */,
+			);
+			name = "Number BaseballUITests";
+			productName = "Number BaseballUITests";
+			productReference = 32AF13EA245024FA00C2A39A /* Number BaseballUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32AF13C1245024EE00C2A39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Jung Bok Lee";
+				TargetAttributes = {
+					32AF13C8245024EF00C2A39A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					32AF13DE245024FA00C2A39A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 32AF13C8245024EF00C2A39A;
+					};
+					32AF13E9245024FA00C2A39A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 32AF13C8245024EF00C2A39A;
+					};
+				};
+			};
+			buildConfigurationList = 32AF13C4245024EE00C2A39A /* Build configuration list for PBXProject "Number Baseball" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32AF13C0245024EE00C2A39A;
+			productRefGroup = 32AF13CA245024EF00C2A39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32AF13C8245024EF00C2A39A /* Number Baseball */,
+				32AF13DE245024FA00C2A39A /* Number BaseballTests */,
+				32AF13E9245024FA00C2A39A /* Number BaseballUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32AF13C7245024EF00C2A39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328714CD246396EF0028FE33 /* GoogleSignIn.bundle in Resources */,
+				328714BC2462F8450028FE33 /* victory-1x.jpg in Resources */,
+				328714752462B6420028FE33 /* baseball-style-number-3-1x.png in Resources */,
+				32AF13D9245024FA00C2A39A /* LaunchScreen.storyboard in Resources */,
+				3287144D2461B7D30028FE33 /* play_ball_1x.png in Resources */,
+				32AF143E246198D500C2A39A /* vector_baseball_3x.png in Resources */,
+				32AF141D24617E8300C2A39A /* numberBaseball_3x.png in Resources */,
+				32AF13D6245024FA00C2A39A /* Assets.xcassets in Resources */,
+				328714782462B6420028FE33 /* baseball-style-number-7-2x.png in Resources */,
+				328714822462B6420028FE33 /* baseball-style-number-9-1x.png in Resources */,
+				3287147B2462B6420028FE33 /* baseball-style-number-9-2x.png in Resources */,
+				328714BD2462F8450028FE33 /* victory-3x.jpg in Resources */,
+				32AF144A246198D500C2A39A /* pitcher_image_og_1x.png in Resources */,
+				32AF141824617E8300C2A39A /* baseball_silhouette_2x.png in Resources */,
+				328714762462B6420028FE33 /* baseball-style-number-6-1x.png in Resources */,
+				32AF141C24617E8300C2A39A /* baseball_silhouette_3x.png in Resources */,
+				328714502461B7D30028FE33 /* baseball-style-number-1-3x.png in Resources */,
+				328714732462B6420028FE33 /* baseball-style-number-3-2x.png in Resources */,
+				328714C624634B140028FE33 /* strike_2x.png in Resources */,
+				32AF13D4245024EF00C2A39A /* Main.storyboard in Resources */,
+				3287147C2462B6420028FE33 /* baseball-style-number-5-3x.png in Resources */,
+				32AF142224617E8300C2A39A /* baseball_silhouette_1x.png in Resources */,
+				32AF1443246198D500C2A39A /* pitcher_image_og_3x.png in Resources */,
+				328714BF2462F8450028FE33 /* baseball_color_1x.png in Resources */,
+				32AF1447246198D500C2A39A /* vector_baseball_1x.png in Resources */,
+				32AF141F24617E8300C2A39A /* baseball-style-number-0-2x.png in Resources */,
+				328714532461B7D30028FE33 /* baseball-style-number-2-3x.png in Resources */,
+				328714842462B6420028FE33 /* baseball-style-number-8-1x.png in Resources */,
+				328714772462B6420028FE33 /* baseball-style-number-3-3x.png in Resources */,
+				32AF142124617E8300C2A39A /* baseball-style-number-0-3x.png in Resources */,
+				328714712462B6420028FE33 /* baseball-style-number-6-2x.png in Resources */,
+				328714BE2462F8450028FE33 /* victory-2x.jpg in Resources */,
+				328714C524634B140028FE33 /* strike_1x.png in Resources */,
+				328714C724634B140028FE33 /* strike_3x.png in Resources */,
+				328714852462B6420028FE33 /* baseball-style-number-7-3x.png in Resources */,
+				328714832462B6420028FE33 /* baseball-style-number-4-2x.png in Resources */,
+				328714BB2462F8450028FE33 /* baseball_color_2x.png in Resources */,
+				328714742462B6420028FE33 /* baseball-style-number-4-3x.png in Resources */,
+				3287147D2462B6420028FE33 /* baseball-style-number-9-3x.png in Resources */,
+				32AF143B246198D500C2A39A /* pitcher_image_og_2x.png in Resources */,
+				32AF1440246198D500C2A39A /* vector_baseball_2x.png in Resources */,
+				3287144F2461B7D30028FE33 /* baseball-style-number-1-2x.png in Resources */,
+				328714802462B6420028FE33 /* baseball-style-number-7-1x.png in Resources */,
+				3287144E2461B7D30028FE33 /* baseball-style-number-2-1x.png in Resources */,
+				3287147E2462B6420028FE33 /* baseball-style-number-4-1x.png in Resources */,
+				3287147A2462B6420028FE33 /* baseball-style-number-5-1x.png in Resources */,
+				32AF142024617E8300C2A39A /* strike_image_out_1x.png in Resources */,
+				328714A52462F8440028FE33 /* baseball_color_3x.png in Resources */,
+				328714722462B6420028FE33 /* baseball-style-number-6-3x.png in Resources */,
+				32AF142624618E1B00C2A39A /* firstPageSkScene.sks in Resources */,
+				328714552461B7D30028FE33 /* play_ball_2x.png in Resources */,
+				32AF141924617E8300C2A39A /* strike_image_out_3x.png in Resources */,
+				32AF141B24617E8300C2A39A /* strike_image_out_2x.png in Resources */,
+				328714542461B7D30028FE33 /* baseball-style-number-2-2x.png in Resources */,
+				32AF141E24617E8300C2A39A /* numberBaseball_2x.png in Resources */,
+				328714812462B6420028FE33 /* baseball-style-number-8-3x.png in Resources */,
+				32AF141A24617E8300C2A39A /* baseball-style-number-0-1x.png in Resources */,
+				328714522461B7D30028FE33 /* play_ball_3x.png in Resources */,
+				3287147F2462B6420028FE33 /* baseball-style-number-8-2x.png in Resources */,
+				328714512461B7D30028FE33 /* baseball-style-number-1-1x.png in Resources */,
+				328714792462B6420028FE33 /* baseball-style-number-5-2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32AF13DD245024FA00C2A39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32AF13E8245024FA00C2A39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		242FA754A66817D2EE3763F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Number Baseball-Number BaseballUITests/Pods-Number Baseball-Number BaseballUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Number Baseball-Number BaseballUITests/Pods-Number Baseball-Number BaseballUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Number Baseball-Number BaseballUITests/Pods-Number Baseball-Number BaseballUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8237A5096D5CCF19608086B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Number Baseball-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		865FD1EFE1E38FAE8BAEBE98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Number Baseball-Number BaseballUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A44F0B42393E88BF9AA016E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Number BaseballTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC066993D6BE2CFB2F3A4B4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Number Baseball-Number BaseballUITests/Pods-Number Baseball-Number BaseballUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Number Baseball-Number BaseballUITests/Pods-Number Baseball-Number BaseballUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Number Baseball-Number BaseballUITests/Pods-Number Baseball-Number BaseballUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE13E0E48229797EE42F52C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Number Baseball/Pods-Number Baseball-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Number Baseball/Pods-Number Baseball-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Number Baseball/Pods-Number Baseball-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF8D623BEE8772E2D8566775 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Number Baseball/Pods-Number Baseball-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Number Baseball/Pods-Number Baseball-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Number Baseball/Pods-Number Baseball-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32AF13C5245024EF00C2A39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AF14012456CD3E00C2A39A /* numberBaseballModel.swift in Sources */,
+				32AF14282461911A00C2A39A /* firstPageSkScene.swift in Sources */,
+				328714C1246348D00028FE33 /* userGuessResultViewController.swift in Sources */,
+				32AF13D1245024EF00C2A39A /* ViewController.swift in Sources */,
+				328714592461C5170028FE33 /* guessByRoundTableViewController.swift in Sources */,
+				32AF13CD245024EF00C2A39A /* AppDelegate.swift in Sources */,
+				328714CB24638CD20028FE33 /* ruleViewController.swift in Sources */,
+				328714572461BE6E0028FE33 /* SetUpGameViewController.swift in Sources */,
+				3287145B24625A430028FE33 /* loadResultsTableViewController.swift in Sources */,
+				328714C9246388B40028FE33 /* CTView.swift in Sources */,
+				32AF14032456D2FB00C2A39A /* Numbers.swift in Sources */,
+				32AF1407245DA14B00C2A39A /* SBResult.swift in Sources */,
+				32AF13CF245024EF00C2A39A /* SceneDelegate.swift in Sources */,
+				328714872462D73C0028FE33 /* playGameViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32AF13DB245024FA00C2A39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AF13E4245024FA00C2A39A /* Number_BaseballTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32AF13E6245024FA00C2A39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AF13EF245024FA00C2A39A /* Number_BaseballUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32AF13E1245024FA00C2A39A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32AF13C8245024EF00C2A39A /* Number Baseball */;
+			targetProxy = 32AF13E0245024FA00C2A39A /* PBXContainerItemProxy */;
+		};
+		32AF13EC245024FA00C2A39A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32AF13C8245024EF00C2A39A /* Number Baseball */;
+			targetProxy = 32AF13EB245024FA00C2A39A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32AF13D2245024EF00C2A39A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32AF13D3245024EF00C2A39A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32AF13D7245024FA00C2A39A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32AF13D8245024FA00C2A39A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32AF13F1245024FB00C2A39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32AF13F2245024FB00C2A39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32AF13F4245024FB00C2A39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73EA19739B1A2F16BFAE7B09 /* Pods-Number Baseball.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Number Baseball/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GTMAppAuth\"",
+					"-framework",
+					"\"GTMSessionFetcher\"",
+					"-framework",
+					"\"GoogleSignIn\"",
+					"-framework",
+					"\"LocalAuthentication\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"AuthenticationServices\"",
+					"(OTHER_LDFLAGS)",
+					"-Objc",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jbl.Number-Baseball";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32AF13F5245024FB00C2A39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFD6ED6E8DB7DE6771CD7FC7 /* Pods-Number Baseball.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Number Baseball/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GTMAppAuth\"",
+					"-framework",
+					"\"GTMSessionFetcher\"",
+					"-framework",
+					"\"GoogleSignIn\"",
+					"-framework",
+					"\"LocalAuthentication\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"AuthenticationServices\"",
+					"(OTHER_LDFLAGS)",
+					"-Objc",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jbl.Number-Baseball";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		32AF13F7245024FB00C2A39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A8AA214EF7DBF8AFEC36F65 /* Pods-Number BaseballTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Number BaseballTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jbl.Number-BaseballTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Number Baseball.app/Number Baseball";
+			};
+			name = Debug;
+		};
+		32AF13F8245024FB00C2A39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41E3AF109922D77196824B40 /* Pods-Number BaseballTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Number BaseballTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jbl.Number-BaseballTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Number Baseball.app/Number Baseball";
+			};
+			name = Release;
+		};
+		32AF13FA245024FB00C2A39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94471E9219BBEBE9ED10ACA5 /* Pods-Number Baseball-Number BaseballUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Number BaseballUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jbl.Number-BaseballUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Number Baseball";
+			};
+			name = Debug;
+		};
+		32AF13FB245024FB00C2A39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7BB5BD968A1B004574C9612 /* Pods-Number Baseball-Number BaseballUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Number BaseballUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jbl.Number-BaseballUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Number Baseball";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32AF13C4245024EE00C2A39A /* Build configuration list for PBXProject "Number Baseball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32AF13F1245024FB00C2A39A /* Debug */,
+				32AF13F2245024FB00C2A39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32AF13F3245024FB00C2A39A /* Build configuration list for PBXNativeTarget "Number Baseball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32AF13F4245024FB00C2A39A /* Debug */,
+				32AF13F5245024FB00C2A39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32AF13F6245024FB00C2A39A /* Build configuration list for PBXNativeTarget "Number BaseballTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32AF13F7245024FB00C2A39A /* Debug */,
+				32AF13F8245024FB00C2A39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32AF13F9245024FB00C2A39A /* Build configuration list for PBXNativeTarget "Number BaseballUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32AF13FA245024FB00C2A39A /* Debug */,
+				32AF13FB245024FB00C2A39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32AF13C1245024EE00C2A39A /* Project object */;
+}
